@@ -1,0 +1,21 @@
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #aac8f7;
+}
+
+#galery {
+    background-color: #aac8f7;
+}
+
+a {
+    color: black;
+    padding-right: 0.7rem;
+}
+
+a:hover {
+    color: rgb(118, 150, 238);
+}
+
+section {
+    padding-top: 5rem;
+}
