@@ -1,11 +1,50 @@
 .jumbotron {
     padding-top: 5rem;
     background-color: #aac8f7;
+    overflow: hidden;
 }
 
-#galery {
+.jumbotron img {
+    box-shadow: 1px 1px 10px rgba(58, 30, 218, 0.842);
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(58, 30, 218, 0.842);
+}
+
+#galery,
+#contact {
     background-color: #aac8f7;
 }
+
+/* galery parralax */
+
+.galery .card {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translate(0, -40px);
+}
+
+.galery .card.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* testimoni parralax */
+
+.testimoni .card {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translate(0, -40px);
+}
+
+.testimoni .card.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
 
 a {
     color: black;
